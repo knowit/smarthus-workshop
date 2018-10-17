@@ -1,7 +1,7 @@
 - alias: 'Turn on light when there is motion'
   trigger: 
     - platform: state
-      entity_id: sensor.sensor.tomhass_burglar
+      entity_id: sensor.tomhass_burglar
       to: "8"
   action:
     - service: light.turn_on
