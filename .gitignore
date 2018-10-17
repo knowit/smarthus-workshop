@@ -5,3 +5,13 @@ OZW_Log.txt
 ._configuration.yaml
 .uuid
 .storage
+home-assistant.log
+home-assistant_v2.db 
+home-assistant_v2.db-shm
+home-assistant_v2.db-wal
+node-red
+options.xml
+pyozw.sqlite
+secrets.yaml
+zwcfg_0xc61c7218.xml
+zwscene.xml
