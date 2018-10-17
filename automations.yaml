@@ -1,1 +1,13 @@
-[]
+- Alias: 'Turn on light when there is motion'
+  trigger: 
+    - platform: state
+      entity_id: sensor.sensor.tomhass_burglar
+      to: "8"
+  action:
+    - service: light.turn_on
+      entity_id: 
+        - light.test_tradfri
+      data:
+        transition: 4
+        brightness: 255
+        kelvin: 2700
