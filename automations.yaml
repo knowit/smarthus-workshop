@@ -5,8 +5,7 @@
       to: "8"
   action:
     - service: light.turn_on
-      entity_id: 
-        - light.test_tradfri
+      entity_id: light.tradfri
       data:
         transition: 4
         brightness: 255
