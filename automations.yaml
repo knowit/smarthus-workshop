@@ -1,4 +1,4 @@
-- Alias: 'Turn on light when there is motion'
+- alias: 'Turn on light when there is motion'
   trigger: 
     - platform: state
       entity_id: sensor.sensor.tomhass_burglar
