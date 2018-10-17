@@ -1,4 +1,4 @@
-- alias: 'Turn on light when there is motion'
+- alias: 'Turn on light when motion'
   trigger: 
     - platform: state
       entity_id: sensor.tomhass_burglar
@@ -10,3 +10,12 @@
         transition: 4
         brightness: 255
         kelvin: 2700
+
+- alias: 'Turn off light when no motion'
+  trigger: 
+    - platform: state
+      entity_id: sensor.tomhass_burglar
+      to: "0"
+  action:
+    - service: light.turn_off
+      entity_id: light.tradfri
