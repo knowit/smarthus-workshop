@@ -1,3 +1,5 @@
+#
+# A simple automation that turns on light when motion is triggered
 - alias: 'Turn on light when motion'
   trigger: 
     - platform: state
@@ -7,10 +9,12 @@
     - service: light.turn_on
       entity_id: light.tradfri
       data:
-        transition: 4
+        transition: 2
         brightness: 255
         kelvin: 2700
 
+#
+# A simple automation that turns off light when there is no motion.
 - alias: 'Turn off light when no motion'
   trigger: 
     - platform: state
