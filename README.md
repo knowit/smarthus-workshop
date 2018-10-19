@@ -1,5 +1,5 @@
 # smarthus-workshop
-Repository for eksempler og konfigurasjon til fagseminar i Ljubljana
+Repository med eksempler og konfigurasjon til fagseminar i Ljubljana
 
 ## Praktisk informasjon
  - slack: #ws-smarthus-iot
