@@ -1,10 +1,10 @@
-OZW_Log.txt
 .DS_Store
 .HA_VERSION
 ._.DS_Store
 ._configuration.yaml
 .uuid
 .storage
+OZW_Log.txt
 home-assistant.log
 home-assistant_v2.db 
 home-assistant_v2.db-shm
